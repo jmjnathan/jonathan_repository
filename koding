@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Login</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             display: flex;
@@ -14,10 +14,9 @@
             align-items: center;
             height: 100vh;
         }
-
         .login-container {
             background-color: #fff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 300px;
@@ -26,30 +25,28 @@
             text-align: center;
             color: #333;
         }
-
         .login-form {
             display: flex;
             flex-direction: column;
         }
-
         .form-group {
-            margin-bottom: 15px;
-        }
-
+                margin-bottom: 15px;
+                text-align: center; 
+            }
         .form-group label {
-            font-size: 14px;
+            display: block;
+            text-align: left;
             margin-bottom: 5px;
             color: #555;
-        }
-
+            font-size: 14px;
+            }
         .form-group input {
             padding: 8px;
             font-size: 14px;
             border: 1px solid #ccc;
             border-radius: 4px;
             width: 100%;
-        }
-
+            }
         .form-group button {
             padding: 10px;
             background-color: #4caf50;
@@ -58,10 +55,13 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
-        }
-
+            width: 100%;     
+            }
         .form-group button:hover {
-            background-color: #45a049;
+            background-color: #39843d;
+        }
+        p{
+            text-align: center;
         }
     </style>
 </head>
@@ -69,6 +69,7 @@
 
     <div class="login-container">
         <h2>Login Form</h2>
+        <p>Jonathan Christiawan - 21.N1.0005</p>
         <form class="login-form">
             <div class="form-group">
                 <label for="username">Username:</label>
